@@ -6,9 +6,9 @@ import lombok.Getter;
 
 @Getter
 public class AboutProductDto {
-    List<ColorSizeQuantityDto> colorSizeQuantity;
+    Iterable<ColorSizeQuantityDto> colorSizeQuantity;
     String mainImgUrl;
-    List<String> photos;
+    Iterable<String> photos;
     String description;
     String details;
 }

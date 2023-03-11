@@ -20,7 +20,7 @@ import telran.java45.product.servise.ProductService;
 public class ProductController {
 	final ProductService productService;
 
-	@PostMapping("/products")
+	@PostMapping("/products/")
 	public ProductResponseDto addProduct(@RequestBody ProductCreateDto productCreateDto) {
 		
 		return productService.addProduct(productCreateDto);

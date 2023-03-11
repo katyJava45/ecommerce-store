@@ -4,7 +4,7 @@ import lombok.Getter;
 
 @Getter
 public class ProductCreateDto {
-	int productId;
+	
     String productName;
     ProductAttributesDto productAttributes;
     Double price;

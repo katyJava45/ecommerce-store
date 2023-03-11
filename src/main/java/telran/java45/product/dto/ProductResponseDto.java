@@ -10,7 +10,7 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @NoArgsConstructor
 public class ProductResponseDto {
-	int productId;
+	Integer productId;
     String productName;
     LocalDate productReceiptDate;
     ProductAttributesDto productAttributes;
@@ -18,4 +18,5 @@ public class ProductResponseDto {
     Double discount;
     String promoCode;
     AboutProductDto aboutProduct;
+    boolean newArrival;
 }

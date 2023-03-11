@@ -7,5 +7,5 @@ import lombok.Getter;
 @Getter
 public class SubCategoryDto {
     String name;
-    List<String> extendableCategories;
+    Iterable<String> extendableCategories;
 }
